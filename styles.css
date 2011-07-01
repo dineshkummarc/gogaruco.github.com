@@ -39,7 +39,7 @@ a {
 a:visited {
 }
 a:hover {
-	font-weight: normal;
+	/*font-weight: normal;*/
 	font-style: normal;
 	text-decoration: underline;
 }
@@ -51,10 +51,18 @@ a:hover {
 
 }
 #header {
+	position: relative;
 	height: 240px;
 	display: block;
 	width: 1010px;
 	margin: 0 auto 32px;
+}
+#gohome {
+	position: absolute;
+	display: block;
+	height: 250px;
+	width: 360px;
+	left: -10px;
 }
 h1 {
 	color: #ed1c24;
